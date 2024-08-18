@@ -1,0 +1,189 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #72356b;
+    text-decoration: none;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    float: right;
+}
+
+.navbar .nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar .nav-links a {
+    color: #72356b;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+    padding-top: 80px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.hero-text {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    padding: 20px;
+    text-align: left;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    color: #72356b;
+}
+
+.hero-text h1 span {
+    font-weight: bold;
+}
+
+.hero-image {
+    display: inline-block;
+    width: 45%;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.search-container {
+    margin-top: 20px;
+}
+
+.search-input, .search-btn {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+}
+
+.search-btn {
+    background-color: #72356b;
+    color: #fff;
+    border: none;
+}
+
+/* Destinations Section */
+.destinations {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.destinations h2 {
+    color: #72356b;
+    font-size: 28px;
+}
+
+.cards {
+    display: inline-block;
+    width: 100%;
+}
+
+/* Card Styles */
+.card {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.card p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.read-more {
+    color: #72356b;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #72356b;
+    font-size: 28px;
+}
+
+.contact form {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.contact form input, .contact form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contact form button {
+    background-color: #72356b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
